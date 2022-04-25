@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import Enzyme, { shallow } from 'enzyme';
 import sinon from 'sinon';
 import Adapter from 'enzyme-adapter-react-16';
-import Filters from '../src/components/Filters';
+import Filters from '../src/components/Filters.js';
 
 Enzyme.configure({ adapter: new Adapter() });
 

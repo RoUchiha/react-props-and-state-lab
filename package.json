@@ -1,34 +1,40 @@
+
 {
+  
   "name": "react-props-and-state-lab",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "fetch-mock": "^5.9.4",
+    
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "fetch-mock": "^9.11.0",
     "jsdom": "^9.9.1",
-    "mocha": "^3.2.0",
-    "react-scripts": "^3.3.0",
+    "mocha": "^9.2.2",
+    "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.0.0",
-    "webpack": "^4.41.2",
-    "webpack-dev-server": "^3.9.0"
+    "webpack": "4.41.2",
+    "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
+    
     "@babel/polyfill": "^7.6.0",
-    "babel-core": "^6.22.1",
-    "babel-loader": "8.0.6",
     "babel-preset-airbnb": "^2.1.1",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.22.0",
-    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-1": "6.24.1",
     "chai": "^3.5.0",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.1",
-    "expect": "^21.2.1",
+    "expect": "^27.5.1",
+    "mocha-multi": "^1.1.6",
     "react": "^16.0.0",
     "react-dom": "^16.3.3",
     "sinon": "^1.17.7",
     "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
+    "type": "module",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha -w test/helpers.js test/*.js",

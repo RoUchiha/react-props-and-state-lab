@@ -4,9 +4,9 @@ import Enzyme, { shallow } from 'enzyme';
 import sinon from 'sinon';
 import Adapter from 'enzyme-adapter-react-16';
 import fetchMock from '../src/fetch-setup';
-import App from '../src/components/App';
-import Filters from '../src/components/Filters';
-import PetBrowser from '../src/components/PetBrowser';
+import App from '../src/components/App.js';
+import Filters from '../src/components/Filters.js';
+import PetBrowser from '../src/components/PetBrowser.js';
 
 Enzyme.configure({ adapter: new Adapter() });
 
